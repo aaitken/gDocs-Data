@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="eng-US">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>DATA</h1>
+
+<p>Proof of concept work for demoing data approach and processing capabilities.</p>
+<p>Source data at <a target="_blank" href="https://spreadsheets0.google.com/ccc?hl=en&key=tnWB-PY2XLg7BpRLFqc3wdg&hl=en#gid=0">https://spreadsheets0.google.com/ccc?hl=en&key=tnWB-PY2XLg7BpRLFqc3wdg&hl=en#gid=0</a></p>
+<div id="raphaelCanvas" style="position:relative"></div>
+
+<!--Frameworks-->
+<script src="../shared/jquery-1.5.1.js"></script>
+<script src="raphael-1.5.2.js"></script>
+<!--Scaffolding-->
+<script src="scaffolding/namespace.js"></script><!--gives GNS-->
+<script src="scaffolding/binder.js"></script>
+<script src="scaffolding/pubsub.js"></script>
+<!--Logic-->
+<script src="namespaces.js"></script>
+<script src="_publishers.js"></script>
+<script src="init.js"></script>
+<script src="raph.js"></script>
+<script src="_subscribers.js"></script>
+
+<script>
+    GNS.init.page();
+    GNS.init.raph();
+</script>
+</body>
+</html>
